@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+}
+
+body { 
+  background-color: #F2FDFF;
+  color:#313638;
+  font-family: 'Noto Sans', sans-serif;
+  margin: 14px auto;
+  width: 1000px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+div {
+  padding: 14px;
+}
+
+
+/* page title */
+
+.titulo {
+  background-color: #FFEBEE;
+  font-size: 30px;
+}
+
+.titulo h1 {
+  margin: 0;
+  padding: 14px;
+}
+
+
+/* navigation */
+.navegacion {
+  background-color: #ECEFF1;
+  margin: 14px 0;
+}
+
+.navegacion ul {
+  margin: 0;
+  padding: 0;
+}
+
+.navegacion li {
+  display: inline-block;
+  padding: 14px;
+}
+
+
+/* first section */
+
+.seccion1-1 {
+  background-color: #E8F5E9;
+  float: left;
+  height: 520px;
+  width: 650px;
+}
+
+.seccion1-2 {
+  background-color:#F3E5F5;
+  float:right;
+  margin-bottom: 14px;
+  width: 335px;
+}
+
+.seccion1-3 {
+  background-color: #EDE7F6;
+  float:right;
+  width: 335px;
+}
+
+
+/* second section */
+
+.seccion2 {
+  display: inline-block;
+  text-align: center;
+}
+
+.seccion2 div {
+  background-color: #E1F5FE;
+  display: inline-block;
+  margin: 14px 0;
+  width: 236px;
+}
+
+.seccion2 div:not(:last-child) {
+  margin-right: 14px;
+}
+
+/* footer */
+
+footer {
+  background-color: #E0F2F1;
+  margin: 14px 0;
+  padding: 14px;
+}
